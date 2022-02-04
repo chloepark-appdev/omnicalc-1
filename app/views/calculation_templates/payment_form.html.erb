@@ -1,14 +1,21 @@
 
 <form action="/payment/results">
-  <label for="giraffe">APR</label>
-  <input id="giraffe" type="text" placeholder="E.g. 5.42" name="april">
+ <div>
+    <label for="apr_input">APR</label>
+    <input id="apr_input" type="text" name="a_input" placeholder="E.g. 5.42">
+  </div>
 
-  <label for="giraffe">Number of years</label>
-  <input id="giraffe" type="text" placeholder="How many years to repay?" name="years">
+<div>
+  <label for="years_input">Number of years</label>
+  <input id="years_input" type="text" name="y_input" placeholder="How many years to repay?" >
+</div>
 
-  <label for="giraffe">Principal</label>
-  <input id="giraffe" type="text" placeholder="How much principal?" name="principal">
+<div>
+  <label for="principal_input">Principal</label>
+  <input id="principal_input" type="text" name="p_input" placeholder="How much principal?">
+</div>
 
-  <button> Caculate monthly payment </button>
+
+  <button type="submit"> Calculate monthly payment </button>
 
 </form>
